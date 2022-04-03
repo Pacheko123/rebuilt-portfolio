@@ -26,19 +26,20 @@
 </head>
 <body class="bg-black">
     <!-- start of navabar and hero page -->
-    <div class="flex justify-end mr-2">
-        <h1 class="text-yellow text-xl mt-2 ">Contact_</h1>
+    <div class="flex justify-end mr-2 nav">
+        <h1 class="text-yellow text-xl mt-2 ">contact_</h1>
+        <!-- <div class="h-0.5 sclae-x-0 hover:scale-300 transition-transform origin-left bg-yellow"></div> -->
     </div>
     <div class="flex flex-col items-start pl-2 mt-5">
         <h1 class="text-white text-2xl">Hi, I am Patrick Oluoch<span class="text-yellow text-4xl">.</span></h1>
         <h1 class="text-gray-500 text-lg mt-2 leading-normal">Computer Science graduate at Multimedia University of Kenya.</h1>
-        <h1 class="text-yellow m-auto mt-5 animate-bounce" >scroll icon</h1>
+        <h1 class="text-black rounded rounded-full h-10 w-10 bg-yellow m-auto mt-5 animate-bounce text-sm text-center pt-2" >scroll</h1>
     </div>
     <!-- End of Navabar and Hero section -->
 
     <!-- Start of Skills section -->
-    <div class="flex flex-col justify-center pl-2 mt-5" id="#home">
-        <div class="flex flex-col items-start">
+    <div class="flex flex-col justify-center pl-2 pr-2 mt-5" id="#home">
+        <div class="flex flex-col items-start"> 
             <h1 class="text-yellow text-xl font-medium">Skillset and Passion</h1>
             <!-- <P class="text-gray-500">The following are a few of my outstanding skills.</P> -->
             <h1 class="text-white text-lg">Full Stack Web Developer</h1>
@@ -52,7 +53,7 @@
             </div>
             
         </div>
-        <div class="mt-2">
+        <div class="mt-2 pr-2">
             <h1 class="text-white text-lg">UI/UX And Graphics Design</h1>
             <p class="text-gray-500">I design intuitive user interfaces for both mobile and
                 web applications.</p>
@@ -63,7 +64,7 @@
                     <h1 class="text-right text-yellow">HIRE ME</h1>
                 </div>
         </div>
-        <div class="mt-2">
+        <div class="mt-2 pr-2">
             <h1 class="text-white text-lg">Programming Tutor & Mentor</h1>
             <p class="text-gray-500">On part time basis I share knowledge and mentor future professionals 
                 in the field of programming.</p>
@@ -74,7 +75,7 @@
                     <h1 class="text-right text-yellow">HIRE ME</h1>
                 </div>
         </div>
-        <div class="mt-2">
+        <div class="mt-2 pr-2">
             <h1 class="text-white text-lg ">Researcher and Tech Writer</h1>
             <p class="text-gray-500">The passion to know beyond and share broadly drives me to perform and 
                 publish research papers and tech articles on Reasearch gate and Medium respectively.</p>
@@ -92,18 +93,18 @@
         <h1 class="text-yellow text-xl ml-2 font-medium">Recent Works</h1>
         <p class="text-sm text-gray-500 mb-1 ml-2">Browse through some of my recently completed works</p>
         <div class="flex flex-row flex-nowrap space-x-2">
-            <div class="rounded bg-gray-500 p-2 h-64 w-1/2 overflow-clip">
-                <img src="" alt="omuga tvc website " class="w-full h-1/2">
-                <h1 class="text-white text-lg">Omuga TVC Website</h1>
-                <p class="text-gray-300 leading-none my-1 text-sm">A website I developed for a technical
+            <div class="rounded bg-gray-500  h-64 w-1/2 overflow-clip">
+                <img src="images/books.png" alt="omuga tvc website " class="w-full h-1/2 rounded-tr rounded-tl">
+                <h1 class="text-white text-lg pl-1">Omuga TVC Website</h1>
+                <p class="text-gray-300 leading-none my-1 text-sm pl-1">A website I developed for a technical
                     and vocational college that was just starting up.</p>
-                    <p class="capitalize text-white text-sm">Visit website</p>
+                    <p class="capitalize text-white text-sm pl-1">Visit website</p>
             </div>
-            <div class="rounded bg-gray-500 p-2 h-auto w-1/2 overflow-clip">
-                <img src="" alt="omuga tvc website " class="w-full h-1/2">
-                <h1 class="text-white text-lg">Advanced CSS Book</h1>
-                <p class="text-gray-300 leading-none my-1 text-sm">A book I wrote about advanced topics on CSS available on Gumroad.</p>
-                    <p class="capitalize text-white mt-4 text-sm">Download it here</p>
+            <div class="rounded bg-gray-500  h-auto w-1/2 overflow-clip">
+                <img src="images/books.png" alt="omuga tvc website " class="w-full h-1/2 rounded-tr rounded-tl">
+                <h1 class="text-white text-lg pl-1">Advanced CSS Book</h1>
+                <p class="text-gray-300 leading-none my-1 text-sm pl-1">A book I wrote about advanced topics on CSS available on Gumroad.</p>
+                    <p class="capitalize text-white mt-4 text-sm pl-1">Download it here</p>
                 
             </div>
         </div>
@@ -118,7 +119,7 @@
 
             <!-- <div class="w-16 bg-yellow inline absolute ml-20 " style="height: 2px; margin-top: 5.4em;"></div> -->
             <p class="text-white text-right pr-2 mb-2 text-lg inline">Get yours at only <span class="text-yellow text-2xl">$49</span><sup class="text-yellow"> 00</sup></p>
-    </div>m
+    </div>
     <!-- End of motivation section -->
 
     <div class="flex flex-row justify-around flex-wrap px-2">
@@ -132,15 +133,15 @@
     <form class="flex flex-col justify-start mx-2 p-2">
         <h1 class="text-yellow text-xl mt-5 font-medium">Contact Me</h1>
         <p class="text-gray-500 text-sm">I cant wait to say Hi to you</p>
-        <input type="email" name="email" id="email" placeholder="Enter email address" class="border border-yellow bg-black rounded pl-2 h-10 my-2">
-        <input type="text" name="subject" id="subject" placeholder="Enter subject" class="border border-yellow bg-black rounded pl-2 h-10 mb-2">
-        <textarea name="message" id="message" cols="30" rows="10" class="border border-yellow bg-black rounded pl-2 h-30 " placeholder="Enter message here"></textarea>
+        <input type="email" name="email" id="email" placeholder="Enter email address" class="border border-yellow bg-black rounded pl-2 h-10 my-2 text-gray-500">
+        <input type="text" name="subject" id="subject" placeholder="Enter subject" class="border border-yellow bg-black rounded pl-2 h-10 mb-2 text-gray-500">
+        <textarea name="message" id="message" cols="30" rows="10" class="border border-yellow bg-black rounded pl-2 h-30 text-gray-500" placeholder="Enter message here"></textarea>
         <button type="submit" class="bg-yellow text-black my-2 h-10">SEND MESSAGE</button>
     </form>
     <!-- End of contact me section -->
 
     <!-- Start of a footer section -->
-    <div class="flex flex-col items-center mt-5 mb-10">
+    <div class="flex flex-col items-center mt-5 ">
         <div class="flex flex-row justify-between">
             <!-- here contains the social icons -->
             <h1 class="text-white mr-1">gh</h1>
@@ -162,8 +163,8 @@
 
     <!-- up navigation icon -->
     <div class="flex justify-end relative">
-    <div class="bg-white h-16 w-16 rounded rounded-full  -mt-64 mr-5 z-10 absolute fixed animate-bounce">
-        <a href="index.html#home"><h1 class="text-black text-center ">nav <br>icon</h1></a>
+    <div class="bg-yellow h-14 w-14 rounded rounded-full  -mt-64 mr-5 z-10 absolute fixed animate-bounce">
+        <a href="index.html#home"><h1 class="text-black text-center text-sm mt-1">nav <br>icon</h1></a>
     </div>
     </div>
 
