@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <style>
         .text-yellow{
@@ -33,16 +34,16 @@
         <!-- <div class="h-0.5 sclae-x-0 hover:scale-300 transition-transform origin-left bg-yellow"></div> -->
     </div>
     <div class="flex flex-col items-start pl-2 mt-5">
-        <h1 class="text-white text-2xl">Hi, I am Patrick Oluoch<span class="text-yellow text-4xl">.</span></h1>
-        <h1 class="text-gray-500 text-lg mt-2 leading-normal">Computer Science graduate at Multimedia University of Kenya.</h1>
+        <h1 class="text-white text-2xl greeting">Hi, I am Patrick Oluoch<span class="text-yellow text-4xl">.</span></h1>
+        <h1 class="text-gray-500 text-lg mt-2 leading-normal description">Computer Science graduate at Multimedia University of Kenya.</h1>
         <h1 class="text-black rounded rounded-full h-10 w-10 bg-yellow m-auto mt-5 animate-bounce text-sm text-center pt-2" ><i class="fa-solid fa-arrow-down"></i></h1>
     </div>
     <!-- End of Navabar and Hero section -->
 
     <!-- Start of Skills section -->
-    <div class="flex flex-col justify-center pl-2 pr-2 mt-5" id="#home">
-        <div class="flex flex-col items-start"> 
-            <h1 class="text-yellow text-xl font-medium">Skillset and Passion</h1>
+    <div class="flex flex-col justify-center pl-2 pr-2 mt-5 skillset" id="#home">
+        <div class="flex flex-col items-start skill-item"> 
+            <h1 class="text-yellow text-xl font-medium category-heading">Skillset and Passion</h1>
             <!-- <P class="text-gray-500">The following are a few of my outstanding skills.</P> -->
             <h1 class="text-white text-lg">Full Stack Web Developer</h1>
             <p class="text-gray-500">I develop cross platform applications using trendy and 
@@ -51,11 +52,11 @@
             <div class="text-gray-500 mt-1">
                 <h1 class="inline text-yellow text-sm">TOOLS:</h1>
                 <h1 class="inline ml-2 text-sm ">TAILWIND, BOOTSTRAP,REACT JS,DJANGO,MYSQL</h1>
-                <h1 class="text-right text-yellow">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
+                <h1 class="text-right text-yellow hire-me">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
             </div>
             
         </div>
-        <div class="mt-2 pr-2">
+        <div class="mt-2 pr-2 skill-item">
             <h1 class="text-white text-lg">UI/UX And Graphics Design</h1>
             <p class="text-gray-500">I design intuitive user interfaces for both mobile and
                 web applications.</p>
@@ -63,10 +64,10 @@
                 <div class="text-gray-500 mt-1">
                     <h1 class="inline text-yellow text-sm">TOOLS:</h1>
                     <h1 class="inline ml-2 text-sm ">ADOBE PHOTOSHOP, ADOBE XD</h1>
-                    <h1 class="text-right text-yellow">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
+                    <h1 class="text-right text-yellow hire-me">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
                 </div>
         </div>
-        <div class="mt-2 pr-2">
+        <div class="mt-2 pr-2 skill-item">
             <h1 class="text-white text-lg">Programming Tutor & Mentor</h1>
             <p class="text-gray-500">On part time basis I share knowledge and mentor future professionals 
                 in the field of programming.</p>
@@ -74,17 +75,17 @@
                 <div class="text-gray-500 mt-1">
                     <h1 class="inline text-yellow text-sm">LANGUAGES:</h1>
                     <h1 class="inline ml-2 text-sm ">WEB DEVELOPMENT(TAILWIND/BOOTSTRAP), REACT JS, OOP(C++), DJANGO(PYTHON)</h1>
-                    <h1 class="text-right text-yellow">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
+                    <h1 class="text-right text-yellow hire-me">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
                 </div>
         </div>
-        <div class="mt-2 pr-2">
+        <div class="mt-2 pr-2 skill-item">
             <h1 class="text-white text-lg ">Researcher and Tech Writer</h1>
             <p class="text-gray-500">The passion to know beyond and share broadly drives me to perform and 
                 publish research papers and tech articles on Reasearch gate and Medium respectively.</p>
                 <div class="text-gray-500 mt-1">
                     <h1 class="inline text-yellow text-sm">PLATFORMS:</h1>
                     <h1 class="inline ml-2 text-sm ">MEDIUM, RESEARCH GATE</h1>
-                    <h1 class="text-right text-yellow">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
+                    <h1 class="text-right text-yellow hire-me">HIRE ME<i class="fa-solid fa-arrow-right-long text-yellow inline ml-2"></i></h1>
                     
                 </div>
         </div>
@@ -93,7 +94,7 @@
 
     <!-- Start of Recent Works section -->
     <div class="flex flex-col mt-5">
-        <h1 class="text-yellow text-xl ml-2 font-medium">Recent Works</h1>
+        <h1 class="text-yellow text-xl ml-2 font-medium category-heading">Recent Works</h1>
         <p class="text-sm text-gray-500 mb-1 ml-2">Browse through some of my recently completed works</p>
         <div class="flex flex-row flex-nowrap space-x-2">
             <div class="rounded bg-gray-500  h-64 w-1/2 overflow-clip">
@@ -116,36 +117,36 @@
 
     <!-- start of motivation section -->
     <div class="flex flex-col justify-start mt-5 pl-8 pr-2">
-        <h1 class="text-white text-lg leading-normal tracking-normal">As a developer or any professional you need a digital portfolio,
+        <h1 class="text-white text-lg leading-normal tracking-normal motivation">As a developer or any professional you need a digital portfolio,
             its a digital way of proving that you are fit for
             a role.</h1>
 
             <!-- <div class="w-16 bg-yellow inline absolute ml-20 " style="height: 2px; margin-top: 5.4em;"></div> -->
-            <p class="text-white text-right pr-2 mb-5 text-lg inline">Get yours at only <span class="text-yellow text-2xl">$49</span><sup class="text-yellow"> 00</sup></p>
+            <p class="text-white text-right pr-2 mb-5 text-lg inline order">Get yours at only <span class="text-yellow text-2xl">$49</span><sup class="text-yellow"> 00</sup></p>
     </div>
     <!-- End of motivation section -->
 
     <div class="flex flex-row justify-around flex-wrap px-2">
-        <h1 class="text-white text-lg">Interested In</h1>
+        <h1 class="text-white text-lg category-heading">Interested In</h1>
         <h1 class="text-black bg-yellow p-1 text-sm border-none">STARTUPS</h1>
         <h1 class="text-black bg-yellow p-1 text-sm border-none">SOFTWARE ENGINEERING</h1>
         
     </div>
 
     <!-- Start of contact me section -->
-    <form class="flex flex-col justify-start mx-2 p-2">
-        <h1 class="text-yellow text-xl mt-5 font-medium">Contact Me</h1>
+    <form class="flex flex-col justify-start mx-2 p-2 contact-form">
+        <h1 class="text-yellow text-xl mt-5 font-medium category-heading">Contact Me</h1>
         <p class="text-gray-500 text-sm">I cant wait to say Hi to you</p>
-        <input type="email" name="email" id="email" placeholder="Enter email address" class="border border-yellow bg-black rounded pl-2 h-10 my-2 text-gray-500">
-        <input type="text" name="subject" id="subject" placeholder="Enter subject" class="border border-yellow bg-black rounded pl-2 h-10 mb-2 text-gray-500">
-        <textarea name="message" id="message" cols="30" rows="10" class="border border-yellow bg-black rounded pl-2 h-30 text-gray-500" placeholder="Enter message here"></textarea>
-        <button type="submit" class="bg-yellow text-black my-2 h-10">SEND MESSAGE</button>
+        <input type="email" name="email" id="email" placeholder="Enter email address" class="border border-yellow bg-black rounded pl-2 h-10 my-2 text-gray-500 contact-input">
+        <input type="text" name="subject" id="subject" placeholder="Enter subject" class="border border-yellow bg-black rounded pl-2 h-10 mb-2 text-gray-500 contact-input">
+        <textarea name="message" id="message" cols="30" rows="10" class="border border-yellow bg-black rounded pl-2 h-30 text-gray-500 contact-input" placeholder="Enter message here"></textarea>
+        <button type="submit" class="bg-yellow text-black my-2 h-10 contact-input">SEND MESSAGE</button>
     </form>
     <!-- End of contact me section -->
 
     <!-- Start of a footer section -->
-    <div class="flex flex-col items-center mt-5 ">
-        <div class="flex flex-row justify-between space-x-2">
+    <div class="flex flex-col items-center mt-5 footer">
+        <div class="flex flex-row justify-between space-x-2 media-icons">
             <!-- here contains the social icons -->
             <i class="fa-brands fa-github text-white"></i>
             <i class="fa-brands fa-researchgate text-white"></i>
@@ -157,7 +158,7 @@
         </div>
         <div class="my-2">
             <i class="fa-solid fa-phone text-gray-500 hover:text-white inline"></i>
-            <h1 class="text-gray-500 hover:text-white text-xl  inline">
+            <h1 class="text-gray-500 hover:text-white text-lg  inline">
                 +254769 869 064
             </h1>
         </div>
@@ -165,13 +166,29 @@
     </div>
 
     <!-- up navigation icon -->
-    <div class="flex justify-end relative">
+    <!-- <div class="flex justify-end relative">
     <div class="bg-yellow h-12 w-12 rounded rounded-full  -mt-64 pt-2 pl-4 mr-5  z-10 absolute fixed animate-bounce">
         <a href="index.html#home"><i class="fa-solid fa-arrow-up  text-center h-4 w-4"></i></a>
     </div>
-    </div>
+    </div> -->
+
+    <script>
+        ScrollReveal({ reset: true,distance: '60px',duration:2500,delay:400 });
+        ScrollReveal().reveal('.footer', { delay: 400 });
+        ScrollReveal().reveal('.greeting', { delay: 400,origin:'left' });
+        ScrollReveal().reveal('.category-heading, .motivation', { delay: 500,origin:'left' });
+        ScrollReveal().reveal('.hire-me,.order', { delay: 600,origin:'right' });
+        ScrollReveal().reveal('.media-icons i', { delay: 500,interval:200 });
+        ScrollReveal().reveal('.skillset .skill-item', { delay: 600,origin:'bottom',interval:200 });
+        ScrollReveal().reveal('.contact-form .contact-input', { delay: 600,origin:'bottom',interval:200 });
+        ScrollReveal().reveal('.description', { delay: 500 });
+
+
+
+    </script>
 
     <!-- Add icons -->
+    done
     <!-- add animations on scroll -->
     <!-- make contact form send message -->
     <!-- host -->
