@@ -15,6 +15,9 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <style>
+        html,body{
+            scroll-behavior: smooth;
+        }
         .text-yellow {
             color: #f2dc12;
         }
@@ -34,7 +37,7 @@
 <body class="bg-black">
     <!-- start of navabar and hero page -->
     <div class="flex justify-end mr-2 nav">
-        <h1 class="text-yellow text-xl mt-2">contact_</h1>
+        <h1 class="text-yellow text-xl mt-2"><a href="#contact-form">contact_</a></h1>
         <!-- <div class="h-0.5 sclae-x-0 hover:scale-300 transition-transform origin-left bg-yellow"></div> -->
     </div>
     <div class="flex flex-col items-start pl-2 mt-5">
@@ -187,7 +190,7 @@
     </div>
 
     <!-- Start of contact me section -->
-    <form class="flex flex-col justify-start mx-2 p-2 contact-form">
+    <form class="flex flex-col justify-start mx-2 p-2 contact-form" id="contact-form">
         <h1 class="text-yellow text-xl mt-5 font-medium category-heading">
             Contact Me
         </h1>
